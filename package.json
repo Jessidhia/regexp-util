@@ -1,0 +1,26 @@
+{
+  "name": "@jessidhia/regexp-util",
+  "version": "1.0.0",
+  "description": "Utility functions to make executing javascript regexps easier",
+  "main": "./cjs",
+  "module": "./cjs/index.mjs",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.json --module es2015 --outDir ./esm && node build/rename",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.2",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
+  "files": [
+    "cjs/",
+    "esm/",
+    "src/",
+    "tsconfig.json",
+    "README.md"
+  ]
+}
