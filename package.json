@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Utility functions to make executing javascript regexps easier",
   "main": "./cjs",
-  "module": "./cjs/index.mjs",
+  "module": "./esm",
   "license": "MIT",
   "scripts": {
-    "build": "tsc -p tsconfig.json && tsc -p tsconfig.json --module es2015 --outDir ./esm && node build/rename",
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.json --module es2015 --outDir ./esm",
     "prepare": "npm run build"
   },
   "devDependencies": {
