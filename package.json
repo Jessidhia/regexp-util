@@ -1,6 +1,6 @@
 {
   "name": "@jessidhia/regexp-util",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Utility functions to make executing javascript regexps easier",
   "main": "./cjs",
   "module": "./esm",
